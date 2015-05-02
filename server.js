@@ -27,7 +27,6 @@ app.configure(function () {
 
 app.get('/random', function(req, res,next) {
   var rand = Math.random();
-  console.log(rand.toString());
   res.send(rand.toString());
 });
 
